@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "streetsidesoftware.code-spell-checker",
+        "editorconfig.editorconfig",
+        "visualstudioexptteam.vscodeintellicode",
+        "ms-vscode.powershell",
+        "WASTeamAccount.WebTemplateStudio-dev-nightly"
+    ]
+}
