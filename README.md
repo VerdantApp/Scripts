@@ -15,6 +15,17 @@
         brew install --cask powershell
         ```
 
+- [Node.js LTS](https://nodejs.org/)
+
+    - [On Windows with WinGet](https://nodejs.org/en/download/package-manager/#windows-1)
+        ```PowerShell
+        winget install OpenJS.NodeJS.LTS
+        ```
+
+    -[On macOS from Homebrew](https://nodejs.org/en/download/package-manager/#macos)
+        ```PowerShell
+        brew install node
+        ```
 ### Setup
 
 Open PowerShell 7+
