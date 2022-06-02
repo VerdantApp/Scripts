@@ -3,7 +3,11 @@
         "streetsidesoftware.code-spell-checker",
         "editorconfig.editorconfig",
         "visualstudioexptteam.vscodeintellicode",
-        "ms-vscode.powershell",
-        "WASTeamAccount.WebTemplateStudio-dev-nightly"
+        "eamodio.gitlens",
+        "ms-dotnettools.vscode-dotnet-pack",
+        "mhutchie.git-graph",
+        "ms-vsliveshare.vsliveshare-pack",
+        "redhat.vscode-yaml",
+        "ms-vscode.powershell"
     ]
 }
