@@ -1,11 +1,15 @@
 version: "2"
 services:
   # back-ends
-  zipkin-all-in-one:
+  zipkin:
     image: openzipkin/zipkin:latest
     ports:
       - "9411:9411"
-
+  jaeger:
+    image: jaegertracing/all-in-one:latest
+    ports:
+      - "16686:16686"
+      - "14250"
   prometheus:
     container_name: prometheus
     image: prom/prometheus:latest
@@ -26,4 +30,5 @@ services:
       - "8889:8889"   # Prometheus exporter metrics
       - "4317:4317"   # OTLP gRPC receiver
     depends_on:
-      - zipkin-all-in-one
+      - zipkin
+      - jaeger
