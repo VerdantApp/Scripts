@@ -13,3 +13,4 @@ gig -list visualstudio, visualstudiocode, rider, powershell, fsharp
 
 Add-Content -Path .\.gitignore -Value '# Repository Specific' -Encoding utf8
 Add-Content -Path .\.gitignore -Value '.tye' -Encoding utf8
+Add-Content -Path .\.gitignore -Value 'output' -Encoding utf8
